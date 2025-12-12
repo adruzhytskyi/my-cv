@@ -60,7 +60,7 @@ career-profile:
   title: Career Profile
   summary: |
     Senior Site Reliability Engineer with 10+ years of experience in IT, including 4 years in SRE roles and 2 years as an SRE Team Lead. Strong background in software engineering principles, cloud infrastructure, and reliability engineering.
-    Extensive hands-on experience designing and operating complex monitoring and observability platforms using Datadog, Site24x7, Zabbix, and the ELK stack, with deep integration into AWS infrastructure (EventBridge, Cognito, ECS, EC2, RDS). Proven expertise in automating infrastructure and monitoring via Terraform (with Gruntwork).
+    Extensive hands-on experience designing and operating complex monitoring and observability platforms using Datadog, Site24x7, Zabbix, and the ELK stack, with deep integration into AWS infrastructure (EventBridge, ECS, EC2, RDS, Aurora ..). Proven expertise in automating infrastructure and monitoring via Terraform (with Gruntwork).
     Regularly operates in a DevOps capacity, building and maintaining CI/CD pipelines, configuration management, and automation using Chef, Rundeck, Inspec, and scripting in Python, PowerShell, and Ruby. Experienced in incident management, alerting strategies, and integration with Jira ticketing systems.
     Strong experience administering Linux and Windows environments, mentoring engineers, leading teams, and collaborating directly with clients and stakeholders to improve system reliability and operational excellence.
 education:
@@ -68,100 +68,38 @@ education:
   info:
   - degree: MSc in Computer Science
     university: Lviv Polytechnic National University
-    time: 2006 - 2013
+    time: 2016 - Present
     details: |
-      Describe your study here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-      sociis natoque penatibus et magnis dis parturient montes, nascetur
-      ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-      pretium quis, sem.
-        - Bullet point
-        - Bullet point
 experiences:
   title: Experiences
   info:
-  - role: Lead Developer
-    time: 2015 - Present
-    company: Startup Hubs, San Francisco
+  - role: Site Reliability Engineer
+    time: 2016 - Present
+    company: Softserve, Ukraine
     details: |
-      Describe your role here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-      Cum sociis natoque penatibus et magnis dis parturient montes,
-      nascetur ridiculus mus. Donec quam felis, ultricies nec,
-      pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-      enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-      error sit voluptatem accusantium doloremque laudantium, totam rem
-      aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-      architecto beatae vitae dicta sunt explicabo.
-        - Bullet point
-        - Bullet point
-  - role: Senior Software Engineer
-    time: 2014 - 2015
-    company: Google, London
+      Operations Engineer (2016–2019) 
+      Worked on a large-scale, business-critical platform delivering operational support, automation, and infrastructure improvements. 
+      Key responsibilities included:
+        - Handling critical incident tickets and providing fast, reliable operational support.
+        - Performing administrative and troubleshooting tasks on MSSQL and Windows Server environments.
+        - Developing PowerShell scripts to automate routine operational tasks and reduce manual workload.
+        - Contributing to the development of deployment automation frameworks using Chef and AWS CloudFormation.
+        - Provisioning and configuring infrastructure resources across cloud and on-prem environments.
+        - Performing deployments for MSSQL, Matillion, ECS, and Redshift.
+        - Organizing and implementing infrastructure backup strategies using AWS Backup.
+        - Testing infrastructure using InSpec, including development and implementation of test suites.
+        - Monitoring Windows and Linux machines using Zabbix, including configuration and troubleshooting.
+  - role: System Andministrator 
+    time: 2012 - 2016
+    company: Gstudio, Ukraine
     details: |
-      Describe your role here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-      Cum sociis natoque penatibus et magnis dis parturient montes,
-      nascetur ridiculus mus. Donec quam felis, ultricies nec,
-      pellentesque eu, pretium quis, sem.
-        - Bullet point
-        - Bullet point
-  - role: UI Developer
-    time: 2012 - 2014
-    company: Amazon, London
-    details: |
-      Describe your role here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-      Cum sociis natoque penatibus et magnis dis parturient montes,
-      nascetur ridiculus mus. Donec quam felis, ultricies nec,
-      pellentesque eu, pretium quis, sem.
-        - Bullet point
-        - Bullet point
+      Support software CAD Letctra, Gerber
+      Administration of Unix based server (CentOS ,Apache,Postfix+Dovecot,Samba)
+      Managing user and server backups.
+      Written communication with customers.
+      Remote user support in Italy,USA
 
-certifications:
-  title: Certifications
-  list:
-  - name: CV Builder
-    start: 2020
-    end: 2021
-    organization: Microsoft
-    credentialid: 111-222
-    credentialurl: www.google.com
-    credentialname: Google
-    details: |
-      Details about cert. Lorem ipsum dolor sit amet, consectetur
-      adipiscing elit.
-      Nullam eget orci purus. Nullam ultrices neque nibh.
-      Aenean fermentum, felis vulputate suscipit accumsan,
-      sem enim bibendum augue, sed convallis arcu lacus at dui.
-      Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
-      Praesent felis nibh, eleifend id eleifend id, dictum id enim.
-      Praesent venenatis erat non augue suscipit consectetur.
 
-projects:
-  title: Projects
-  intro: >
-    You can list your side projects in this section. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
-  assignments:
-  - title: Velocity
-    link: "#hook"
-    tagline: "A responsive website template designed to help startups promote, market and sell their products."
-
-  - title: DevStudio
-    link: "#"
-    tagline: "A responsive website template designed to help web developers/designers market their services."
-
-  - title: Tempo
-    link: "#"
-    tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
-
-  - title: Atom
-    link: "#"
-    tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-  - title: Delta
-    link: "#"
-    tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
 
 footer: >
   Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
